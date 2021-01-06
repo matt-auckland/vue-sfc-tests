@@ -1,19 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <!-- <HelloWorld></HelloWorld> -->
+    <!-- <HelloWorldExtended></HelloWorldExtended> -->
+  <!-- <Cart></Cart> -->
+
+  </div> 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from "./components/HelloWorld";
+// import HelloWorldExtended from "./components/HelloWorld copy";
+// // import Cart from "./components/Cart";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    // HelloWorld,
+    // HelloWorldExtended,
+    // Cart
   }
-}
+};
 </script>
 
 <style>
